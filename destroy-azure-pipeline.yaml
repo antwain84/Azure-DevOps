@@ -25,8 +25,8 @@ stages:
               command: 'init'
               backendServiceArm: 'Azure subscription 1'
               backendAzureRmResourceGroupName: 'DevOps'
-              backendAzureRmStorageAccountName: 'a84storage01'
-              backendAzureRmContainerName: 'a84container01'
+              backendAzureRmStorageAccountName: 'storage01'
+              backendAzureRmContainerName: 'container01'
               backendAzureRmKey: 'terraform.tfstate'
               backendAWSBucketName: 
           - task: TerraformTaskV4@4
